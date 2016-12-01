@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+#banner {
+	text-align:center;
+	
+}
+
+global {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+body {
+    background-image: url(Imagenes/background-image.png);
+    background-repeat: repeat;
+}
+	
+.main-nav { 
+margin:auto;
+width:1200px;
+
+} 
+	.nav {
+	list-style:none;
+	padding:0;
+	width: 1200 px;
+	height: 170px;
+	margin: auto;
+	text-align:center;
+}
+
+.nav > li {
+    list-style-image: none;
+	list-style-type: none;
+	display: inline-block;
+}
+.dropdown:hover > .ulservices {
+	display: block;
+	position: absolute;
+	z-index: 100;
+}
+
+.dropdown {
+	list-style-image: none;
+	list-style-type: none;
+}
+.dropdown2 {
+	list-style-image:none;
+	list-style-type: none;
+
+}
+
+.ulservices{ 
+ display:none;
+ list-style-image:none;
+ list-style-type: none;
+ }
+	
+ .ulspecialities{ 
+ display:none;
+ list-style-image:none;
+	list-style-type: none;
+ }
+
+
+.dropdown2:hover > .ulspecialities {
+	display:block;
+	position:absolute;
+	z-index: 100;
+	
+	}
+   .unorderedlists { 
+   max-width: 900px;
+   text-align:left;
+   margin-left:150px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+	 }
+#Content {
+	margin: 0px auto 0px auto;
+	text-align:center;
+}
+#box1 { 
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	width: 1200px;
+	min-height: 1950px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EE9BD7;
+	margin-left: auto;
+	background-color:#FFFFFF;
+	margin-right: auto;
+	align-content:center;
+	text-align:center;
+	padding-bottom: 5px;
+}
+#box2 { 
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	width: 1200px;
+	min-height: 2130px;
+	background-color:#FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EE9BD7;
+	margin-left: auto;
+	margin-right: auto;
+	align-content:center;
+	text-align:center;
+	padding-bottom: 5px;
+}
+#box3 { 
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	width: 1200px;
+	min-height: 900px;
+	background-color:#FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EE9BD7;
+	margin-left: auto;
+	margin-right: auto;
+	align-content:center;
+	text-align:center;
+	padding-bottom: 5px;
+}
+#box4 { 
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	width: 1200px;
+	min-height: 1540px;
+	background-color:#FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EE9BD7;
+	margin-left: auto;
+	margin-right: auto;
+	align-content:center;
+	text-align:center;
+	padding-bottom: 5px;
+}
+#box5 { 
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	width: 1200px;
+	min-height: 1430px;
+	background-color:#FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EE9BD7;
+	margin-left: auto;
+	margin-right: auto;
+	align-content:center;
+	text-align:center;
+	padding-bottom: 5px;
+}
+
+.Dentaloffice {
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+	color:#CD14B0;
+}
+.indextext {
+	margin-top: 600px;
+	margin-bottom: 150px;
+	text-align: center;
+	align-content: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.color {
+color:#CD14B0;
+
+}
+.ubication { 
+font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+color:#CD14B0;
+text-align:left;
+margin-left:100px;
+}
+#googleform {
+margin-left:100px;	
+}
+.videoclient { 
+text-align:center;
+margin-bottom:150px;
+}
+		
+#specialitiestypes {
+	text-align:center}
+ 
+
+.ppt li {
+	list-style-type: none;
+	position: absolute;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	left:auto;
+	right: auto;
+}  
+  
+.ppt img {
+	border: 5px solid #e7e7e7;
+	padding: 5px;
+	background-color: #ececec;
+}
+
+#footer {
+	width: 1200px;
+	align-content: center;
+	background-color: #D782C9;
+	position: fixed;
+	bottom: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	left: auto;
+	right: auto;
+
+}
+.txt { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+	margin-bottom:150px;
+	max-width: 900px;
+   text-align:left;
+   margin-left:150px;
+      }
+.left {
+	text-align: left;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.centered{
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	text-align: left;
+}
